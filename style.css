@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2d303a;
+}
+
+.main{
+background-image: url(img/main_bg.png);
+background-size: cover ;
+width: 1400px;
+height: 850px;  
+position: absolute;
+margin: auto;
+right: 0;
+top: 0;
+bottom: 0;
+left: 0;
+}
+
+ .main__block{
+     background-image: url(img/bg.png);
+     background-size: cover;
+     width: 1400px;
+     height: 850px;
+     position: absolute;
+     margin: auto;
+     right: 0;
+     left: -10px;
+ }
+
+ .main__logo{
+     background-image:url(img/logo.png);
+     background-size: cover;
+     width: 100px;
+     height: 50px;
+     position: absolute;
+     float: left;
+     top: 140px;
+     left: 140px;
+ }
+
+ .main__sneakers{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    float: left;
+    top: 300px;
+    left: 180px;
+ }
+
+ .main__ring{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #29e3ea;
+  margin-top: 80px;
+  border-radius: 100px;
+  margin-left: 10px;
+ }
+
+ .main__ring--red{
+    background-color: #ed3333;
+ }
+
+ .main__ring--while{
+    background-color: white;
+ }
+
+ .main__ring--active{
+    background-color: #1f273f;
+    border: 1px solid #7e838b;
+   margin-left: 450px;
+ }
+
+ 
+ .main__text{
+    margin-top: 230px;
+    margin-left: 900px;
+    font-size: 34px;
+    letter-spacing: 2px;
+    font-family: "Roboto";
+    color: rgb(225, 225, 225);
+    line-height: 1.5;
+ }
+
+
+  .main__text_unisex{
+        font-size: 24px;
+        font-family: "Roboto";
+        color: rgba(225, 225, 225, 0.541);
+        line-height: 3.5;
+        margin-left: 900px;
+        letter-spacing: 2.4px;
+  }
+
+  .main__star{
+      display: inline-block;
+      margin-left: 3px;
+      width: 15px;
+      height: 15px;
+      background-image: url(img/star2.0.png);
+      background-size:cover;
+  }
+  .main__star--vids{  /*Не розумію як посунути зліва цей "спимок" */
+    margin-left: 900px;
+    margin-top: 25px;
+  }
+
+  .main__star--color{
+    background-image: url(img/star_grey.png);
+  }
+
+  .main__size{
+    margin-top: 60px;
+    margin-left: 900px;
+    width: 80px;
+    height: 35px;
+    border: 1px solid #4f5560;
+    padding-left: 15px;
+    line-height: 1.9;
+    font-size: 20px;
+    font-family: "Roboto";
+    color:#4f5560;
+    letter-spacing: 2.4px;  
+    text-transform: uppercase;
+  }
+
+.main__size__img{
+width: 15px;
+height: 10px;
+}
+ 
+.main__qty{
+    margin-top: -37px;
+    margin-left: 1000px;
+    width: 80px;
+    height: 35px;
+    border: 1px solid #4f5560;
+    padding-left: 20px;
+    line-height: 1.9;
+    font-size: 20px;
+    font-family: "Roboto";
+    color:#4f5560;
+    letter-spacing: 2.4px; 
+    text-transform: uppercase;
+}
+ 
+.main__add{
+   margin-top: 40px;
+    margin-left: 900px;
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #4f5560;
+    line-height: 2.5;
+    font-size: 20px;
+    background-color: #202835;
+    font-family: "Roboto";
+    color:#4f5560;
+    letter-spacing: 2.4px; 
+  
+}
+  
+.main__ring:hover{
+background-color: #1f273f;
+}
+
+.main__add:hover{
+    background-color: #111a28;
+}
